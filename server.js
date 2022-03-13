@@ -181,6 +181,6 @@ if ( process.env.NODE_ENV == "production"){
 
 }
 // nodemon Backend/server.js
-app.listen(Port, () => {
-    console.log(`Server is running at port ${Port}`)
+app.listen(process.env.PORT || 4000, () => {
+    console.log(`Server is running at port `)
 });
