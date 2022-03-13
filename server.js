@@ -3,7 +3,7 @@ const cors = require('cors');
 const Crypto = require('crypto');
 const Port=process.env.PORT || 4000
 const DotEnv = require("dotenv")
-DotEnv.config({ path: "Backend/Config.env" });
+DotEnv.config({});
 const SecretKey = Crypto.randomBytes(20).toString("hex");
 const RandomToken = Crypto.createHash("sha256").digest(SecretKey).toString("hex")
 

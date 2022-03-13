@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 // const client = new MongoClient(uri);
-mongoose.connect('mongodb://127.0.0.1:27017/TodoApp', {
+mongoose.connect('mongodb+srv://arslananjum_401:arslanAA564^^&&@cluster0.pidwl.mongodb.net/TodoApp?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     // useFindAndModify: false,
@@ -11,3 +11,5 @@ mongoose.connect('mongodb://127.0.0.1:27017/TodoApp', {
         console.error(err)
     }
 })
+// mongoose.connect('mongodb+srv://arslananjum_401:arslanAA12@cluster0.pidwl.mongodb.net/TodoApp?retryWrites=true&w=majority', {
+// 
