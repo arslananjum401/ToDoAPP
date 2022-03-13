@@ -1,0 +1,32 @@
+.LoginFormContainer{
+    margin: 20px;
+}
+.LoginFormContainer h2{
+text-align: center;
+}
+.LoginForm{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.LoginInputs{
+    font-size: 18px;
+    padding: 3px 10px;
+    border-radius: 100px;
+}
+.LoginForm button{
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(39, 175, 216);
+    border: none;
+    padding: 5px 10px;
+    transition: all 0.2s;
+}
+.LoginForm button:hover{
+    color: white;
+    background-color: rgb(7, 34, 42);
+
+}

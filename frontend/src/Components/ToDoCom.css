@@ -1,0 +1,33 @@
+/* .ToDoListContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+} */
+.ToDos label {
+    font-size: 18px;
+}
+
+.ToDoForm input[type="submit"] {
+    padding: 3px 6px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4cbadf;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.ToDoForm input[type="submit"]:hover {
+    color: white;
+    background-color: #2d5968;
+}
+
+.ToDoForm input[type="text"] {
+    border-radius: 10px;
+    padding: 4px 8px;
+    font-size: 16px;
+}
+
+.ToDoForm>* {
+    margin: 10px;
+}

@@ -1,0 +1,21 @@
+.HomeContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HomeBtn{
+    text-align: center;
+    background-color: #42c1eb;
+    text-decoration: none;
+    color: black;
+    padding: 2px 3px;
+    font-size: 19px;
+}
+.HomeBtn:hover{
+    transition: all 0.2s;
+    color: white;
+    background-color: #2d83a0;
+}
